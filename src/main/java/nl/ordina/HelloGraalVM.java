@@ -1,6 +1,6 @@
-package nl.ordina.holygraalvm.examples.polyglot;
+package nl.ordina;
 
-public class PolyglotGraalVM {
+public class HelloGraalVM {
 
     public static void main(String... args) {
 

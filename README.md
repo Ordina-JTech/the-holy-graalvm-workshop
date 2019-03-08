@@ -22,6 +22,10 @@ Workshop for The Holy GraalVM Meetup
 * set JAVA_HOME to `<project_path>/graalvm-ce-1.0.0-rc13/Contents/Home`
 * set PATH to `<project_path>/graalvm-ce-1.0.0-rc13/Contents/Home/bin:$PATH`
 
+### IntelliJ
+
+* Add GraalVM as a JDK.
+* Add the following file to the GraalVM Classpath: `jre/lib/boot/graal-sdk.jar`
 
 # Workshop 
 

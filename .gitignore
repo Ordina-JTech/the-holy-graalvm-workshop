@@ -16,3 +16,5 @@ buildNumber.properties
 !/.mvn/wrapper/maven-wrapper.jar
 
 graalvm-ce-1.0.0-rc**/**
+
+**/*.class

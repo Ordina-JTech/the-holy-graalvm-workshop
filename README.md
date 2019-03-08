@@ -6,6 +6,7 @@ Workshop for The Holy GraalVM Meetup
 ## Prerequisites
 
 * [GraalVM](http://www.graalvm.org/docs/getting-started/)
+* XCode CLI tools -> `xcode-select --install`
 
 ## Setup
 

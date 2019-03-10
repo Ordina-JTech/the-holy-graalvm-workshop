@@ -5,10 +5,7 @@ image=graalvm
 version=1.0.0-rc13
 latest=true
 
-#OPTIONS="--no-cache --force-rm"
-#OPTIONS="--no-cache"
-#OPTIONS="--force-rm"
-OPTIONS=""
+OPTIONS="--build-arg GRAALVM_VERSION=1.0.0-rc13"
 
 docker build ${OPTIONS} -t ivonet/${image}:${version} .
 if [ "$?" -eq 0 ] && [ ${deploy} == "true" ]; then

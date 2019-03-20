@@ -1,4 +1,4 @@
-FROM oracle/graalvm-ce:1.0.0-rc13
+FROM oracle/graalvm-ce:1.0.0-rc14
 
 RUN yum -y update \
  && yum -y install \

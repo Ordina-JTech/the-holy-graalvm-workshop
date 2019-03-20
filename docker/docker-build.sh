@@ -2,10 +2,10 @@
 #deploy="false"
 deploy="true"
 image=graalvm
-version=1.0.0-rc13
+version=1.0.0-rc14
 latest=true
 
-OPTIONS="--build-arg GRAALVM_VERSION=1.0.0-rc13"
+OPTIONS="--build-arg GRAALVM_VERSION=${version}"
 
 docker build ${OPTIONS} -t ivonet/${image}:${version} .
 if [ "$?" -eq 0 ] && [ ${deploy} == "true" ]; then

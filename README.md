@@ -38,8 +38,6 @@ TODO
 
 TODO
 
-## Be
-
 # GraalVM Workshop docker image
 
 A fully configured GraalVM Docker image has been made for this workshop to play around with.

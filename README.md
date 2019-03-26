@@ -32,7 +32,15 @@ Workshop for The Holy GraalVM Meetup
 
 ## Polyglot example
 
-TODO
+* Install the language engines for R, ruby and python with the following commands:
+```bash
+gu install R
+gu install ruby
+gu install python
+```
+* Navigate to the `polyglot` directory
+* Run `javac HelloPolyglot.java` to compile `HelloPolyglot.java` with GraalVM.
+* Run `java HelloPolyglot` to run the application on GraalVM.
 
 ## Native example
 

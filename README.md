@@ -45,10 +45,6 @@ NOTE: if you use the docker image as described below you don't have to install t
 * Run `java HelloPolyglot` to run the application on GraalVM.
 
 
-## Native example
-
-TODO
-
 # GraalVM Workshop docker image
 
 A fully configured GraalVM Docker image has been made for this workshop to play around with.

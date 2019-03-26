@@ -38,9 +38,12 @@ gu install R
 gu install ruby
 gu install python
 ```
+NOTE: if you use the docker image as described below you don't have to install them as they are already installed.
+
 * Navigate to the `polyglot` directory
 * Run `javac HelloPolyglot.java` to compile `HelloPolyglot.java` with GraalVM.
 * Run `java HelloPolyglot` to run the application on GraalVM.
+
 
 ## Native example
 

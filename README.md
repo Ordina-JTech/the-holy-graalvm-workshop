@@ -63,6 +63,6 @@ docker run -it --rm --name graalvm -v $(pwd):/project -v ${HOME}/.m2:/root/.m2 i
 - Names it `graalvm`
 - Mounts the current folder into the `/project` folder of the container (which is the working dir)
 - Mounts the maven config dir into the container maven config dir
-- Removes itself (`--rm`) when closed (remove this if you want to save the state)
+- Removes itself (`--rm`) when closed (remove this if you want to save the state / container)
 
 The command can of course be adjusted to your needs :-)
